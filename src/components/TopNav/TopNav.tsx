@@ -3,9 +3,6 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Home, NotebookText, UserSearch } from 'lucide-react';
-import pageLogo from './assets/logo.png'
-import instagramLogo from './assets/Instagram.png'
-import whatsappLogo from './assets/WhatsApp.png'
 
 const TopNav: React.FC = () => {
 
@@ -21,7 +18,7 @@ const TopNav: React.FC = () => {
       <nav className="bg-[#af8a57] shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className='flex text-white w-40 h-16 text-[20px]'>
-            <img src={pageLogo} alt="Juntadas de mesa Santi" className='h-12 mt-1 mr-12' />
+            <img src={'/assets/logo.png'} alt="Juntadas de mesa Santi" className='h-12 mt-1 mr-12' />
             <Link to='' className='flex items-center hover:text-gray-300'>
               <Home className='w-6 h-6 mr-2' />
               <span className='font-semibold mr-6'>Inicio</span>
@@ -67,11 +64,11 @@ const TopNav: React.FC = () => {
               <div className='flex mr-10'>
                 <p className="mb-4">Siguenos por</p>
                 <a href='https://www.youtube.com' rel="noopener noreferrer">
-                  <img src={instagramLogo} alt="Instagram" className='w-[21px] h-[21px]' />
+                  <img src={'/assets/Instagram.png'} alt="Instagram" className='w-[21px] h-[21px]' />
                 </a>
               </div>
               <p>Hablanos por +911 42069</p>
-              <img src={whatsappLogo} alt="whatsapp" className='w-[21px] h-[21px]' />
+              <img src={'/assets/WhatsAppl.png'} alt="whatsapp" className='w-[21px] h-[21px]' />
               <button
                 onClick={() => setShowModal(false)}  // Cerrar el modal
                 className="mt-4 ml-8 mr-8 p-2 bg-red-500 text-white rounded-[6px]"

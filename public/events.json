@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"name": "Juntada en x lugar", "date": "2015-03-04", "cover": "/assets/cafePlace.png"},
+    {"name": "Juntada en x1 lugar", "date": "2015-03-04", "cover": "/assets/cafePlace.png"},
+    {"name": "Juntada en x 2lugar", "date": "2015-03-04", "cover": "/assets/cafePlace.png"},
+    {"name": "Juntada en x3 lugar", "date": "2015-03-04", "cover": "/assets/cafePlace.png"},
+    {"name": "Juntada en x4 lugar", "date": "2015-03-04", "cover": "/assets/cafePlace.png"}
+  ]
+}
